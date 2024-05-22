@@ -633,7 +633,7 @@
 				const intersections_z = collision.intersectObjects(objects);
 				hitObject = intersections_z.length > 0;
 
-				const speedMultiplier = isSprinting ? 700.0 : 400.0;
+				const speedMultiplier = isSprinting ? 800.0 : 500.0;
 
 				if (moveForward || moveBackward) velocity.z -= direction.z * speedMultiplier * delta;
 				if (moveLeft || moveRight) velocity.x -= direction.x * speedMultiplier * delta;
